@@ -1,3 +1,6 @@
+> [!NOTE]
+> **Status:** function for time-based messaging not included yet. Currently forked in preperation.
+
 # TwitchMarkov
 A Markov chain generator for Twitch.
 
