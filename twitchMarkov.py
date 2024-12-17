@@ -19,6 +19,8 @@ TIMES_TO_TRY = 1000
 PERCENT_UNIQUE_TO_SAVE = 50.0
 STATE_SIZE = 2
 PHRASES_LIST = []
+#Log file must have the name scheme of (your-username)+(Logs)+(.txt)
+#Example: johnwest22Logs.txt
 LOGFILE = "uninitialized.txt"
 
 def listMeetsThresholdToSave(part, whole):
