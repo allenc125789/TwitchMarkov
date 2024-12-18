@@ -2,6 +2,8 @@
 A Markov chain generator for Twitch.
 
 ### Setup
+Download and unzip program [https://github.com/allenc125789/TwitchMarkov/archive/refs/heads/main.zip](https://github.com/allenc125789/TwitchMarkov/archive/refs/heads/main.zip)
+
 - Install dependencies
 > pip install markovify
 
