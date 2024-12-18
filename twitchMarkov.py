@@ -20,7 +20,7 @@ PERCENT_UNIQUE_TO_SAVE = 50.0
 STATE_SIZE = 2
 PHRASES_LIST = []
 #Log file must have the name scheme of (your-Twitch-username)+(Logs)+(.txt)
-#If you get a "not generated" error, it's likley due to the log file is missing/incorrectly named, or the channel is offline.
+#If you get a "not generated" error, it's likley due to the log file is missing/incorrectly named.
 #Example: johnwest22Logs.txt
 LOGFILE = "uninitialized.txt"
 
