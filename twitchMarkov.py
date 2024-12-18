@@ -221,6 +221,7 @@ while True:
     sock.send(f"NICK {Conf.nickname}\n".encode('utf-8'))
     sock.send(f"JOIN #{Conf.channel}\n".encode('utf-8'))
 
+    # Create/set LOGFILE if not manually set.
     if LOGFILE == "" or LOGFILE == None:
         LOGFILE = Conf.owner + 'Logs.txt'
         open(LOGFILE, 'a').close()
