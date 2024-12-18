@@ -99,6 +99,7 @@ def generateAndSendMessage(sock, channel):
     if SEND_MESSAGES:
         markoved = generateMessage()
         if markoved != None:
+            markoved = '[LogicCore{FATAL ERROR}] ' + markoved
             sendMessage(sock, channel, markoved)
         else:
             print("Could not generate.")
