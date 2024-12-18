@@ -21,7 +21,7 @@ STATE_SIZE = 2
 PHRASES_LIST = []
 
 # LOGFILE requires a paragraph or so of data before the text generator works.
-# If no LOGFILE is specified, it will create/set a file for each specific channel we connect to.
+# If no LOGFILE is specified, one will be created/set for each specific channel we connect to.
 LOGFILE = ""
 
 def listMeetsThresholdToSave(part, whole):
