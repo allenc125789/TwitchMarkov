@@ -19,6 +19,9 @@ TIMES_TO_TRY = 1000
 PERCENT_UNIQUE_TO_SAVE = 50.0
 STATE_SIZE = 2
 PHRASES_LIST = []
+
+#LOGFILE requires a paragraph or so of data before the text generator works.
+# If no LOGFILE is specified, it will create/set a file for each specific channel we connect to.
 LOGFILE = ""
 
 def listMeetsThresholdToSave(part, whole):
@@ -223,7 +226,7 @@ while True:
 
     # Create/set LOGFILE if not manually set.
     if LOGFILE == "" or LOGFILE == None:
-        LOGFILE = Conf.owner + 'Logs.txt'
+        LOGFILE = Conf.channel + 'Logs.txt'
         open(LOGFILE, 'a').close()
 
     print("Connected", Conf.nickname, ".")
