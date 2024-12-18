@@ -9,4 +9,4 @@ A Markov chain generator for Twitch.
 - Make a Twitch Account
 - Generate an oAuth token with [https://twitchapps.com/tmi](https://twitchtokengenerator.com/)
 - Fill out the conf.py file.
-- Execute.
+- Execute twitchMarkov.py.
