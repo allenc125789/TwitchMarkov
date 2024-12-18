@@ -6,11 +6,12 @@ class Conf:
     # Bot account conf
     # Lowercase name
     nickname = ""
-    # oauth generate with https://twitchapps.com/tmi/
-    token = ""
+    # oauth generate with https://twitchtokengenerator.com/
+    # Place token in the following line. Example: (token = "oath:28jdf898h...")
+    token = "oauth:"
 
     # Run config
-    # Lowercase channel to join.
+    # Lowercase channel-name to join.
     channel = ""
 
     # Add users to ignore, lowercase.
