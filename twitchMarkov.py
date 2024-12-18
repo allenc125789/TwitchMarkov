@@ -20,7 +20,7 @@ PERCENT_UNIQUE_TO_SAVE = 50.0
 STATE_SIZE = 2
 PHRASES_LIST = []
 #Log file must have the name scheme of (your-Twitch-username)+(Logs)+(.txt)
-#If you get a "not generated" error, it's likley due to the log file is missing/incorrectly named.
+#If you get a "not generated" error, it's likley due to the log file is missing/incorrectly named, or the channel is offline.
 #Example: johnwest22Logs.txt
 LOGFILE = "uninitialized.txt"
 
@@ -223,8 +223,6 @@ while True:
     sock.send(f"PASS {Conf.token}\n".encode('utf-8'))
     sock.send(f"NICK {Conf.nickname}\n".encode('utf-8'))
     sock.send(f"JOIN #{Conf.channel}\n".encode('utf-8'))
-
-    LOGFILE = Conf.channel + "Logs.txt"
 
     print("Connected", Conf.nickname, ".")
 
