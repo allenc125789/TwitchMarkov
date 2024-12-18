@@ -20,7 +20,7 @@ PERCENT_UNIQUE_TO_SAVE = 50.0
 STATE_SIZE = 2
 PHRASES_LIST = []
 
-#LOGFILE requires a paragraph or so of data before the text generator works.
+# LOGFILE requires a paragraph or so of data before the text generator works.
 # If no LOGFILE is specified, it will create/set a file for each specific channel we connect to.
 LOGFILE = ""
 
